@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".option1_contact">
+
+    <TextView
+        android:id="@+id/guide"
+        android:layout_width="236dp"
+        android:layout_height="31dp"
+        android:layout_x="36dp"
+        android:layout_y="624dp"
+        android:text="Prof. Warish Patel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#157D73"
+        android:textColorHighlight="#1C7E75"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="637dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="563dp"
+        android:lineSpacingExtra="10sp"
+        android:text="PROJECT GUIDE'S CONTACT:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#3F51B5"
+        android:textIsSelectable="false"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="585dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="204dp"
+        android:layout_height="172dp"
+        android:layout_x="106dp"
+        android:layout_y="38dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/school"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="269dp"
+        android:lineSpacingExtra="10sp"
+        android:text="STUDENT'S CONTACT :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#3F51B5"
+        android:textIsSelectable="false"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <TextView
+        android:id="@+id/pranavmail"
+        android:layout_width="309dp"
+        android:layout_height="31dp"
+        android:layout_x="42dp"
+        android:layout_y="323dp"
+        android:text="180303105704@paruluniversity.ac.in"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#157D73"
+        android:textColorHighlight="#1C7E75"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <TextView
+        android:id="@+id/yashmail"
+        android:layout_width="323dp"
+        android:layout_height="31dp"
+        android:layout_x="42dp"
+        android:layout_y="368dp"
+        android:text="180303105707@paruluniversity.ac.in"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#157D73"
+        android:textColorHighlight="#1C7E75"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <TextView
+        android:id="@+id/alimail"
+        android:layout_width="309dp"
+        android:layout_height="31dp"
+        android:layout_x="40dp"
+        android:layout_y="460dp"
+        android:text="180303105731@paruluniversity.ac.in"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#157D73"
+        android:textColorHighlight="#1C7E75"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <TextView
+        android:id="@+id/jigomail"
+        android:layout_width="317dp"
+        android:layout_height="31dp"
+        android:layout_x="40dp"
+        android:layout_y="414dp"
+        android:text="180303105701@paruluniversity.ac.in"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#157D73"
+        android:textColorHighlight="#1C7E75"
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+</AbsoluteLayout>

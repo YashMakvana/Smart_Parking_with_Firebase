@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartparkingproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".option3_about"
+           android:label="About Us" ></activity>
+        <activity android:name=".option2_feedback"
+            android:label="Feedback"/>
+        <activity android:name=".option1_contact"
+            android:label="Contact Us"/>
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OfficeParking"
+            android:label="Movie Parking Lot"/>
+
+        <activity android:name=".StadiumParking"
+            android:label="Office Parking Lot"/>
+
+        <activity android:name=".Restaurant_Parking"
+            android:label="Stadium Parking Lot"/>
+
+        <activity android:name=".MovieParking"
+            android:label="Restaurant Parking Lot"/>
+
+        <activity android:name=".SchoolParking"
+            android:label="School Parking Lot"/>
+
+        <activity android:name=".MainActivity" />
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

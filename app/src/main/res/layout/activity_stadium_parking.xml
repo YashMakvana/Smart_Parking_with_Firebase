@@ -3,23 +3,35 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:fillViewport="true">
-    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <GridLayout
         android:id="@+id/GridLayout1"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="500dp"
         android:alignmentMode="alignBounds"
-        android:columnCount="2"
-        android:rowCount="10"
-
         android:columnWidth="125dp"
+
+        android:columnCount="2"
         android:horizontalSpacing="100dp"
-        android:verticalSpacing="25dp"
-        android:layout_gravity="center_horizontal"
         android:orientation="horizontal"
-        tools:context=".GridXMLActivity" >
+        android:rowCount="11"
+        android:verticalSpacing="25dp">
+<!--        tools:context=".GridXMLActivity">-->
+
+        <Button
+            android:id="@+id/btncheck"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_marginBottom="50dp"
+            android:background="#162473"
+            android:text="CHECK"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
 
         <ImageView
             android:id="@+id/schoolslot1"
@@ -29,8 +41,8 @@
             android:minWidth="36dp"
             android:minHeight="36dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/available"
-            />
+            android:src="@drawable/available" />
+
         <ImageView
             android:id="@+id/schoolslot2"
             android:layout_width="150dp"
@@ -39,8 +51,7 @@
             android:minWidth="36dp"
             android:minHeight="36dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/available"
-            />
+            android:src="@drawable/available" />
 
         <ImageView
             android:id="@+id/schoolslot3"
@@ -50,8 +61,8 @@
             android:minWidth="36dp"
             android:minHeight="36dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/available"
-            />
+            android:src="@drawable/available" />
+
         <ImageView
             android:id="@+id/schoolslot4"
             android:layout_width="150dp"
@@ -60,8 +71,8 @@
             android:minWidth="36dp"
             android:minHeight="36dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/available"
-            />
+            android:src="@drawable/available" />
+
         <ImageView
             android:id="@+id/schoolslot5"
             android:layout_width="150dp"
@@ -70,8 +81,8 @@
             android:minWidth="36dp"
             android:minHeight="36dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/available"
-            />
+            android:src="@drawable/available" />
+
         <ImageView
             android:id="@+id/schoolslot6"
             android:layout_width="150dp"
@@ -80,8 +91,8 @@
             android:minWidth="36dp"
             android:minHeight="36dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/available"
-            />
+            android:src="@drawable/available" />
+
         <ImageView
             android:id="@+id/schoolslot7"
             android:layout_width="150dp"
@@ -90,8 +101,8 @@
             android:minWidth="36dp"
             android:minHeight="36dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/available"
-            />
+            android:src="@drawable/available" />
+
         <ImageView
             android:id="@+id/schoolslot8"
             android:layout_width="150dp"
@@ -100,8 +111,8 @@
             android:minWidth="36dp"
             android:minHeight="36dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/available"
-            />
+            android:src="@drawable/available" />
+
         <ImageView
             android:id="@+id/schoolslot9"
             android:layout_width="150dp"
@@ -110,8 +121,8 @@
             android:minWidth="36dp"
             android:minHeight="36dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/available"
-            />
+            android:src="@drawable/available" />
+
         <ImageView
             android:id="@+id/schoolslot10"
             android:layout_width="150dp"
@@ -120,8 +131,8 @@
             android:minWidth="36dp"
             android:minHeight="36dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/available"
-            />
+            android:src="@drawable/available" />
+
         <ImageView
             android:id="@+id/schoolslot11"
             android:layout_width="150dp"
@@ -131,18 +142,24 @@
             android:minWidth="36dp"
             android:minHeight="36dp"
             android:scaleType="fitCenter"
-            android:src="@drawable/available"
-            /><ImageView
-        android:id="@+id/schoolslot12"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_margin="10dp"
-        android:layout_marginBottom="100dp"
-        android:minWidth="36dp"
-        android:minHeight="36dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/available"
-        />
+            android:src="@drawable/available" />
+
+        <ImageView
+            android:id="@+id/schoolslot12"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="100dp"
+            android:minWidth="36dp"
+            android:minHeight="36dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/available" />
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            />
 
     </GridLayout>
 </ScrollView>

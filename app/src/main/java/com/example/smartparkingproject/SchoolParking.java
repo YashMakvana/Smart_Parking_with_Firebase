@@ -26,7 +26,7 @@ Button btnFetch;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_school_parking);
-                t1= findViewById(R.id.tv1);
+               t1= findViewById(R.id.tv1);
                 slot1= findViewById(R.id.schoolslot1);
                 Button btn=findViewById(R.id.btncheck);
         reff = FirebaseDatabase.getInstance().getReference();

@@ -35,11 +35,6 @@
             android:textSize="17sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/tv1"
-            android:layout_width="139dp"
-            android:layout_height="wrap_content"
-            android:visibility="invisible" />
 
         <ImageView
             android:id="@+id/schoolslot1"
@@ -162,14 +157,12 @@
             android:minHeight="36dp"
             android:scaleType="fitCenter"
             android:src="@drawable/available" />
-
-        <!--    <TextView-->
-        <!--        android:id="@+id/textView8"-->
-        <!--        android:layout_width="wrap_content"-->
-        <!--        android:layout_height="wrap_content"-->
-        <!--        android:layout_row="0"-->
-        <!--        android:layout_column="1"-->
-        <!--        android:text="TextView" />-->
+<TextView
+    android:id="@+id/tv1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="invisible"
+    />
 
     </GridLayout>
 </ScrollView>
